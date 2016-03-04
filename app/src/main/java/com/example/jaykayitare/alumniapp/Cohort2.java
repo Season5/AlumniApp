@@ -8,6 +8,6 @@ public class Cohort2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cohoort2);
+        setContentView(R.layout.cohort2);
     }
 }

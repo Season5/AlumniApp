@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AlumniApp</string>
+    <string name="title_project_list">Projetcs</string>
+    <string name="title_project_detail">Project Detail</string>
 </resources>

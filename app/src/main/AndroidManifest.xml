@@ -15,6 +15,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ProjectListActivity"
+            android:label="@string/title_project_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProjectDetailActivity"
+            android:label="@string/title_project_detail"
+            android:parentActivityName=".ProjectListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jaykayitare.alumniapp.ProjectListActivity" />
+        </activity>
+        <activity android:name=".Cohort1" />
+        <activity android:name=".Cohort3" />
+        <activity android:name=".Cohort2" />
+        <activity android:name=".Cohort4" />
+        <activity android:name=".Cohort5"></activity>
     </application>
 
 </manifest>
