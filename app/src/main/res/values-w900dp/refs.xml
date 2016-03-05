@@ -6,4 +6,8 @@
     For more on layout aliases, see:
     http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
     -->
+<<<<<<< HEAD
+=======
+    <item name="project_list" type="layout">@layout/project_list_twopane</item>
+>>>>>>> 98f231e8d5fc3db39e1023a70ec949d5a04e31af
 </resources>
