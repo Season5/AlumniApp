@@ -1,5 +1,7 @@
 package com.example.jaykayitare.alumniapp;
 
+import android.app.Activity;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +20,7 @@ import android.widget.TextView;
 
 import com.example.jaykayitare.alumniapp.dummy.DummyContent;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,7 +31,7 @@ import java.util.List;
  * item details. On tablets, the activity presents the list of items and
  * item details side-by-side using two vertical panes.
  */
-public class ProjectListActivity extends AppCompatActivity {
+public class ProjectListActivity extends AppCompatActivity  {
 
     /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
@@ -140,3 +143,6 @@ public class ProjectListActivity extends AppCompatActivity {
         }
     }
 }
+
+
+
