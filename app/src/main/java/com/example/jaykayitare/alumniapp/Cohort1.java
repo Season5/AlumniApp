@@ -1,8 +1,11 @@
 package com.example.jaykayitare.alumniapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class Cohort1 extends AppCompatActivity {
@@ -16,6 +19,7 @@ public class Cohort1 extends AppCompatActivity {
 
         ListView listView = (ListView) findViewById(R.id.alumnilist);
         listView.setAdapter(adapter);
+
 
     }
 }

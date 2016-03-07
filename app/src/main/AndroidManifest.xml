@@ -8,37 +8,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main" />
-        <activity android:name=".Cohort1">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cohort1" />
+        <activity android:name=".Cohort2" />
+        <activity android:name=".Cohort3" />
+        <activity android:name=".Cohort4" />
+        <activity android:name=".Cohort5" />
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".Cohort2" />
-        <activity android:name=".Cohort3" />
-=======
-        <activity
-            android:name=".ProjectListActivity"
-            android:label="@string/title_project_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ProjectDetailActivity"
-            android:label="@string/title_project_detail"
-            android:parentActivityName=".ProjectListActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.jaykayitare.alumniapp.ProjectListActivity" />
-        </activity>
-        <activity android:name=".Cohort1" />
-        <activity android:name=".Cohort3" />
-        <activity android:name=".Cohort2" />
->>>>>>> 98f231e8d5fc3db39e1023a70ec949d5a04e31af
-        <activity android:name=".Cohort4" />
-        <activity android:name=".Cohort5"></activity>
+
     </application>
 
 </manifest>

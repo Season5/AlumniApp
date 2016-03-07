@@ -13,10 +13,6 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 98f231e8d5fc3db39e1023a70ec949d5a04e31af
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
